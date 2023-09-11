@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Actividad 02</title>
+		<link rel="stylesheet" href=".\css\styles02..css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			
+			<header>
+				<div class="container-hero">
+					<div class="container hero">
+						<div class="customer-support">
+							<i class="fa-solid fa-headset"></i>
+							<div class="customer-support">
+								<span class="text">Soporte al cliente</span>
+								<span class="numero">012-345-678</span>
+							</div>
+		
+						</div>
+						<div class="container-logo">
+							<i class="fa-brands fa-slack"></i>
+							<h1 class="Logo"><a href="/">GLAMPING</a></h1>
+		
+						</div>
+						<div class="container-user">
+							<i class="fa-solid fa-user"></i>
+							<i class="fa-solid fa-basket-shopping"></i>
+							<div class="content-shopping-cart">
+								<span class="text">Carrito</span>
+								<span class="number">(0)</span>
+							</div>
+		
+						</div>
+					</div>
+		
+				</div>
+				<div class="container-navbar">
+					<nav class="container-navbar container">
+						<ul class="menu">
+							<li><a href="glamping.html" class="current">inicio</a></li>
+							<li><a href="eventos.html">eventos</a></li>
+							<li><a href="">reservas</a></li>
+							<li><a href="actividad_01.html">Actividad 01</a></li>
+							<li><a href="actividad_03.html">Actividad 03</a></li>
+						</ul>
+		
+						<form class="search-form">
+							<input type="search" placeholder="Buscar..." />
+							<button class="btn-search">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</button>
+						</form>
+		
+					</nav>
+	
+				</div>
+			</header>
+          
+       
+           </style>
+       </head>
+       <body>
+           <div class="container">
+               <form>
+                   <!--Caja Primer -->
+                   <div class="row">
+                     <div class="col-15">
+                         <label for="PApell">Primer Apellido</label>
+                     </div>
+                     <div class="col-30">
+                         <input type="text" id="PApell"name="PrimerApellido">
+                     </div>
+                   
+                      <div class="col-15">
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <label for="Pnom">Primer Nombre</label>			   	   	
+                      </div>
+                      <div class="col-30">
+                          <input type="text" id="Pnom" name="PrNombre">			   	
+                      </div>
+                   </div> 
+       
+                    
+                   
+                   <!--Caja segundo -->
+                   <div class="row">
+                     <div class="col-15">
+                         <label for="SApell">Segundo Apellido</label>
+                     </div>
+                     <div class="col-30">
+                         <input type="text" id="SApell"name="SegundoApellido">
+                     </div>
+                   
+                       <div class="col-15">
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <label for="Snom">Segundo Nombre</label>			   	   	
+                       </div>
+                      <div class="col-30">
+                          <input type="text" id="Snom" name="SNombre">			   	
+                      </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-30">
+                           <label>Genero:</label>
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           &nbsp;
+                           
+                           <input type="radio" name="gen">Femenino
+                           <input type="radio" name="gen">Masculino
+                           <input type="radio" name="gen">No Binario
+                           
+            
+                       </div>
+       
+                       <div class="col-30">
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           <label for="fcha">Fecha De Reserva</label>
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                               <input type="date" name="datemax" max="2006-12-13">
+                       
+                           
+                       </div>
+       
+                   </div>
+       
+                   <div class="row">
+                           <div class="col-15">
+                           <label for="TipDoc">Tipo Documento:</label>
+                           </div>
+                           <div class="col-30">
+                               <select id="TipDoc"name="Tipo de Documento">
+                                   <option value="seleccion">Seleccione</option>
+                                   <option value="tarjetaidentidad">T.I</option>
+                                   <option value="cedula">C.C</option>
+                                   <option value="extranjera">C.Extran </option>
+                               
+       
+                           </select>
+                               
+                           </div>
+                   </div>
+       
+       
+                   <div class="row">
+                       <div class="col-15">
+                       <label for="Prog">Lugar</label>								
+                       </div>
+                       <div class="col-30">
+                           <select id="Prog"name="Programas">
+                               <option value="seleccion">Seleccione</option>
+                               <option value="ingenieriaSot">Bogota</option>
+                               <option value="ingenieriaSis">Armenia</option>
+                               <option value="ingenieriaSot">Cali</option>
+                               <option value="ingenieriaSot">villavicencio</option>
+                               <option value="ingenieriaSot">Cartagena</option>
+       
+                           </select>
+                       </div>							
+                   </div>
+       
+                   <div class="row">
+                       <div class="col-15">
+                       <label for="com">Comentarios</label>	
+                       </div>
+                       <div class="col-30">
+                           <textarea id="com" name="Comentarios" style="height: 200px;">Escriba aquí su comentario...
+                           </textarea>
+                        </div>
+                       
+                    </div>
+                   
+                   <div class="row" >
+                       
+                       <div class="col-15" >
+                           
+                           <input type="submit" name="Enviar" >	
+                       </div>
+                       
+                  
+                   
+                       <div class="col-15">
+                           <input type="reset" name="Borrar">	
+                       </div>
+                       
+                   </div>
+       
+       
+       
+               </form>
+           </div>
+            <footer class="footer">
+                <div class="container container-footer">
+                    <div class="menu-footer">
+                        <div class="contact-info">
+                            <p class="title-footer">Información de Contacto</p>
+                            <ul>
+                                <li>Teléfono: 012-345-678</li>
+                                <li>EmaiL: Glamping@support.com</li>
+                            </ul>
+                        
+                        </div>
+        
+                        <div class="information">
+                            <p class="title-footer">Información</p>
+                            <ul>
+                                <li><a href="#">Acerca de Nosotros</a></li>
+                                <li><a href="#">Politicas de Privacidad</a></li>
+                                <li><a href="mapa.html">Contactános</a></li>
+                            </ul>
+                        </div>
+        
+        
+                        <div class="newsletter">
+                            <p class="title-footer">Boletín informativo</p>
+        
+                            <div class="content">
+                                <p>
+                                    Suscríbete a nuestros boletines ahora y mantente al
+                                    día con nuevas colecciones y ofertas exclusivas.
+                                </p>
+                                <input type="email" placeholder="Ingresa el correo aquí...">
+                                <button>Suscríbete</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>
+                            pagina  &copy; 2023
+                        </p>
+        
+                       
+                    </div>
+                </div>
+            
+                
+            </footer>
+		</div>
+        
+	</body>
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+</html>	
